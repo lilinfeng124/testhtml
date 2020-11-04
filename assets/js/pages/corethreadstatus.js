@@ -115,7 +115,7 @@ var corerefreshthreadtable = function() {
 	   $.ajax({
 	         contentType: "application/json; charset=utf-8",
 	         type:"post",
-	         url:"http:///192.168.1.199:8900/core/threadstatus",
+	         url:"http:///49.91.240.239:8900/core/threadstatus",
 	         data:identity,
 	         success:function(data){
 	        	  console.log("data"+data);
