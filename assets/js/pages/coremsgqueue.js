@@ -9,7 +9,7 @@
 		   $.ajax({
 		         contentType: "application/json; charset=utf-8",
 		         type:"post",
-		         url:"http:///192.168.1.199:8900/core/msgqueue",
+		         url:"http:///49.91.240.239:28900/core/msgqueue",
 		         contentType: "jsonp",
 		         data:"",
 		         success:function(data){
